@@ -7,9 +7,7 @@ Steps to run this project:
 3. Publish the Archetype to your local repository with `mvn clean install`
 4. Use the Archetype to bootstrap a new project:
 ```
- mvn archetype:generate \
-   -DgroupId=[your-poject-groupId]  \
-   -DartifactId=[your-poject-artifactid] \
-   -DarchetypeGroupId=io.jotech \
-   -DarchetypeArtifactId=john-on-tech-webapp-archetype  \
-   -DinteractiveMode=false
+ mvn archetype:generate -DgroupId=[your-poject-groupId] -DartifactId=[your-poject-artifactid] -DarchetypeGroupId=io.jotech -DarchetypeArtifactId=john-on-tech-webapp-archetype     -DinteractiveMode=false
+
+- `your-poject-groupId` be  something like `org.training`
+- `your-poject-artifactid` is the app name like `TrainingApp`
